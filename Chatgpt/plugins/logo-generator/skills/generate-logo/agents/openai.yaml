@@ -1,0 +1,4 @@
+interface:
+  display_name: "Logo Generator"
+  short_description: "Create logos from names, styles, and color themes"
+  default_prompt: "Use $generate-logo to create a logo using my brand name, preferred style, and color theme."

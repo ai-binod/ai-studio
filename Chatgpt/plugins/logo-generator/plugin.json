@@ -1,0 +1,23 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "logo-generator",
+  "version": "0.1.0",
+  "description": "Generate and refine logos from a brand name, style, color theme, and design brief using built-in image generation.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Logo Generator",
+        "shortDescription": "Logos from your brand brief",
+        "longDescription": "Create logo concepts from your brand name, business, style, colors, typography, symbols, and intended use. Refine existing logos, request transparent images or simple editable SVGs, and use ready-made example prompts. Uses the host’s built-in image generation when available; includes no external image service.",
+        "category": "Productivity",
+        "logo": "./assets/logo.svg",
+        "composerIcon": "./assets/logo.svg",
+        "defaultPrompt": [
+          "Create a logo for my business. Ask for my brand name, preferred style, and color theme if I have not supplied them.",
+          "Create a minimal logo for Leaf & Bean, a neighborhood café, in forest green and cream. No tagline.",
+          "Help me refine an existing logo while preserving its exact brand name and key design elements."
+        ]
+      }
+    }
+  }
+}
