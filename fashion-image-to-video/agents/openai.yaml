@@ -1,0 +1,4 @@
+interface:
+  display_name: "Fashion Image to Video"
+  short_description: "Create fashion videos from images with energetic music"
+  default_prompt: "Use $fashion-image-to-video to turn my uploaded image into a professional modeling photoshoot video, preserving its aspect ratio and adding energetic instrumental music."
