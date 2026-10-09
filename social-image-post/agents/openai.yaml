@@ -1,0 +1,4 @@
+interface:
+  display_name: "Social Image Post"
+  short_description: "Turn images and your brief into social media posts"
+  default_prompt: "Use $social-image-post to write an Instagram caption from my uploaded image and description in a friendly tone with relevant hashtags."
